@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34c6eb"
+    tools:context=".WonActivity">
+
+    <TextView
+        android:id="@+id/wonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wonBtn"
+        android:text="Play Again"
+        android:layout_below="@+id/wonText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="reStart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wonBtn"
+        android:id="@+id/credits"
+        android:text="develop by Sanket Puhan"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="230dp"
+
+        />
+
+
+</RelativeLayout>
